@@ -24,3 +24,146 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Area Popup Markdown Styles */
+.area-popup .mapboxgl-popup-content {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.area-popup h1,
+.area-popup h2,
+.area-popup h3,
+.area-popup h4,
+.area-popup h5,
+.area-popup h6 {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #111827;
+}
+
+.area-popup h1 {
+  font-size: 20px;
+  border-bottom: 2px solid #d1d5db;
+  padding-bottom: 8px;
+}
+
+.area-popup h2 {
+  font-size: 18px;
+  color: #374151;
+}
+
+.area-popup h3 {
+  font-size: 16px;
+  color: #4b5563;
+}
+
+.area-popup p {
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.area-popup strong,
+.area-popup b {
+  font-weight: 600;
+  color: #111827;
+}
+
+.area-popup em,
+.area-popup i {
+  font-style: italic;
+}
+
+.area-popup ul,
+.area-popup ol {
+  margin: 0 0 16px 0;
+  padding-left: 0;
+}
+
+.area-popup ul {
+  list-style: disc;
+}
+
+.area-popup ol {
+  list-style: decimal;
+  padding-left: 4px;
+}
+
+.area-popup li {
+  margin: 6px 0;
+  margin-left: 12px;
+  line-height: 1.5;
+  color: #4b5563;
+  position: relative;
+  padding-left: 4px;
+}
+
+.area-popup ol li {
+  padding-left: 0;
+}
+
+.area-popup li strong {
+  color: #111827;
+}
+
+.area-popup li:hover {
+  color: #374151;
+}
+
+.area-popup ul li:hover::before {
+  color: #6b7280;
+}
+
+.area-popup hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #9ca3af, #e5e7eb);
+  margin: 16px 0;
+  border-radius: 1px;
+}
+
+.area-popup a {
+  color: #374151;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.area-popup a:hover {
+  border-bottom-color: #9ca3af;
+}
+
+.area-popup blockquote {
+  border-left: 4px solid #9ca3af;
+  padding-left: 12px;
+  margin: 16px 0;
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 4px;
+  font-style: italic;
+  color: #374151;
+}
+
+.area-popup code {
+  background: #f3f4f6;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 14px;
+  color: #374151;
+}
+
+.area-popup pre {
+  background: #f3f4f6;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 12px 0;
+}
+
+.area-popup pre code {
+  background: none;
+  padding: 0;
+}
