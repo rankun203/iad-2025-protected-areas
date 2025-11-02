@@ -58,7 +58,7 @@ export default function SidePanel({ requestedAreas, onSubmitApplication }: SideP
           <div className="text-xs text-gray-600 space-y-1">
             <p>• All permits are subject to approval</p>
             <p>• Processing time: 3-5 business days</p>
-            <p>• Contact: permits@example.com</p>
+            <p>• Contact: permits@mapoon.qld.gov.au</p>
           </div>
         </div>
       </div>
